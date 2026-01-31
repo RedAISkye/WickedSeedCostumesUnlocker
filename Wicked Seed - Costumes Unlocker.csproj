@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>WickedSeedCostumesUnlocker</AssemblyName>
+    <Product>Wicked Seed - Costumes Unlocker</Product>
+    <Version>1.1</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <RestoreAdditionalProjectSources>
+      https://api.nuget.org/v3/index.json;
+      https://nuget.bepinex.dev/v3/index.json;
+      https://nuget.samboy.dev/v3/index.json
+    </RestoreAdditionalProjectSources>
+    <RootNamespace>RedAISkye.WickedSeed.CostumesUnlocker</RootNamespace>
+    <AssemblyTitle>Wicked Seed - Costumes Unlocker</AssemblyTitle>
+    <Title>Wicked Seed - Costumes Unlocker</Title>
+    <Authors>RedAISkye</Authors>
+    <Company>RedAISkye</Company>
+    <Description>This mod unlocks all costumes right from the start without requiring any completion of challenges/shop purchases.</Description>
+    <Copyright>Bidhan Tandukar</Copyright>
+    <PackageProjectUrl>https://smol.tandukarbidhan.com.np/ShopWSCosUnMod</PackageProjectUrl>
+    <PackageIcon>Logo.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/RedAISkye/WickedSeedCostumesUnlocker</RepositoryUrl>
+    <PackageTags>BepInEx;Cheat;Game Mod;Modification;RedAISkye;Wicked Seed;Costumes Unlocker;Unity</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Reference\Logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="bin\Release\net48\WickedSeedCostumesUnlocker.dll" />
+    <None Include="bin\Release\net48\WickedSeedCostumesUnlocker.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
+    <PackageReference Include="UnityEngine.Modules" Version="5.6.0" IncludeAssets="compile" />
+  </ItemGroup>
+  
+  <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\Reference\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="License.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
