@@ -16,15 +16,28 @@ https://smol.tandukarbidhan.com.np/ShopWSCosUnMod
 > Extract the contents directly inside the game's installed directory.
 
 ## 3. Can I preview a screenshot of how the mod looks?
-> Of course, there is a screenshot that demonstrates the mod perfectly called **"Preview.png"**.
+> Of course, there is a screenshot that demonstrates the mod perfectly called "**Preview.jpg**".
 
 ## 4. How do I uninstall this mod?
-> Delete the folder **"BepInEx"** and files **"doorstop_config.ini"**, **"winhttp.dll"** & **"Preview.png"**.
+> Delete the folder "**BepInEx**" and files "**.doorstop_version**", "**doorstop_config.ini**", "**Preview.jpg**", "**Readme.txt**", & "**winhttp.dll**".
 
 ## 5. Can I use this mod for whatever purpose I want?
-> Yeah, just make sure to credit me for this mod by my name **"RedAISkye"** with the link for this mod provided here and **Dead Right Games** for developing this cool game!
+> Yeah, just make sure to credit me for this mod by my name "**RedAISkye**" with the link for this mod provided here and "**Dead Right Games**" for developing this cool game!
 
-<img width="1075" height="2697" alt="Wicked Seed - Costumes Unlocker (Preview)" src="https://tandukarbidhan.com.np/wp-content/uploads/2026/01/Wicked-Seed-Costumes-Unlocker-Preview-scaled.png" />
+<img alt="Wicked Seed - Costumes Unlocker (Preview)" src="https://smol.tandukarbidhan.com.np/WSCosUnPrev" />
+
+---
+
+## Reporting Issue
+
+If you have an issue after an update, ensure the mod is actually installed properly.
+<br>As the mod should be compatible with future updates.
+
+Otherwise, share your log, which is inside the <b>BepInEx</b> folder called “<i>LogOutput.log</i>”.
+
+You can copy/paste all contents of the log to <a href="https://paste.tandukarbidhan.com.np"><b>RedPaste</b></a>.
+
+After creation of the paste, you can share the link by creating <a href="https://github.com/RedAISkye/WickedSeedCostumesUnlocker/issues/new">a new issue</a>.
 
 ---
 
